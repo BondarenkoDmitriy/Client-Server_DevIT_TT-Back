@@ -1,8 +1,8 @@
 # Client-Server Back Side:
 
-The backend part accepts a request from the form on the frontend part.
-And sends back the indexes of all elements to the specified cleaning.
-In the event that the delay between responses is less than 50 ms, the error 'Too Many Requests' appears
+The server part takes values ​​from the form and gives a response to the front-end part with an interval from 1ms to 1000ms.
+The answer comes in the form of indexes from the query.
+The answer comes with a single query, a list of indexes.
 
 ## Installation
 
